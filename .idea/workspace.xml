@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04a14864-f0fd-4928-9ec1-199795bfd218" name="Changes" comment="" />
+    <list default="true" id="04a14864-f0fd-4928-9ec1-199795bfd218" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/ergo-chair/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/models/ego-transformed.glb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/canvas/ergo/Ego.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/canvas/ergo/ego-transformed.glb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/ergo/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/canvas/Rig.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/canvas/Rig.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/homepage/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/homepage/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,9 +25,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
         <option value="SCSS File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -31,30 +42,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/dr.cat/Desktop/Me/r3f-started/app",
-    "list.type.of.created.stylesheet": "SCSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
-    "ts.external.directory.path": "/Users/dr.cat/Desktop/Me/r3f-started/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/dr.cat/Desktop/Me/r3f-started/public/models&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/dr.cat/Desktop/Me/r3f-started/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/models" />
+      <recent name="$PROJECT_DIR$/src/components/canvas/ergo" />
       <recent name="$PROJECT_DIR$/app" />
       <recent name="$PROJECT_DIR$/src/modules" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/public/font" />
-      <recent name="$PROJECT_DIR$/app/hontran/test" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/components/canvas" />
@@ -74,6 +85,8 @@
       <updated>1693898764713</updated>
       <workItem from="1693898766036" duration="15240000" />
       <workItem from="1694061021870" duration="1492000" />
+      <workItem from="1694076355977" duration="8350000" />
+      <workItem from="1694156666988" duration="2150000" />
     </task>
     <servers />
   </component>
