@@ -4,9 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04a14864-f0fd-4928-9ec1-199795bfd218" name="Changes" comment="f">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="04a14864-f0fd-4928-9ec1-199795bfd218" name="Changes" comment="remove .idea">
+      <change afterPath="$PROJECT_DIR$/app/naruto/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/models/F-6800-STD.cube" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/models/aerodynamics_workshop_1k.hdr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/models/naruto_sage_mode-transformed.glb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/models/room-transformed.glb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/canvas/materials/glass.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/canvas/naruto/scene.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/canvas/room/scene.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/naruto/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,14 +27,17 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="TypeScript File" />
         <option value="SCSS File" />
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -40,7 +53,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/dr.cat/Desktop/Me/r3f-started/public/models&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/dr.cat/Desktop/Me/r3f-started/src/components/canvas/room&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -53,11 +66,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/canvas/room" />
       <recent name="$PROJECT_DIR$/public/models" />
-      <recent name="$PROJECT_DIR$/src/components/canvas/ergo" />
-      <recent name="$PROJECT_DIR$/app" />
       <recent name="$PROJECT_DIR$/src/modules" />
-      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/app" />
+      <recent name="$PROJECT_DIR$/src/components/canvas/naruto" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/components/canvas" />
@@ -79,7 +92,8 @@
       <workItem from="1694061021870" duration="1492000" />
       <workItem from="1694076355977" duration="8350000" />
       <workItem from="1694156666988" duration="2150000" />
-      <workItem from="1694414297070" duration="1576000" />
+      <workItem from="1694414297070" duration="11154000" />
+      <workItem from="1694501181746" duration="10597000" />
     </task>
     <servers />
   </component>
@@ -116,6 +130,19 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="f" />
-    <option name="LAST_COMMIT_MESSAGE" value="f" />
+    <MESSAGE value="remove .idea" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove .idea" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/canvas/naruto/scene.tsx</url>
+          <line>30</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
