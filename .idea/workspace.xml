@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04a14864-f0fd-4928-9ec1-199795bfd218" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/ergo-chair/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/models/ego-transformed.glb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/canvas/ergo/Ego.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/canvas/ergo/ego-transformed.glb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/ergo/index.tsx" afterDir="false" />
+    <list default="true" id="04a14864-f0fd-4928-9ec1-199795bfd218" name="Changes" comment="f">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/canvas/Rig.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/canvas/Rig.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/homepage/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/homepage/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +79,7 @@
       <workItem from="1694061021870" duration="1492000" />
       <workItem from="1694076355977" duration="8350000" />
       <workItem from="1694156666988" duration="2150000" />
+      <workItem from="1694414297070" duration="1576000" />
     </task>
     <servers />
   </component>
@@ -109,5 +102,20 @@
         <option value="$PROJECT_DIR$/app/layout.jsx" />
       </list>
     </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="f" />
+    <option name="LAST_COMMIT_MESSAGE" value="f" />
   </component>
 </project>
