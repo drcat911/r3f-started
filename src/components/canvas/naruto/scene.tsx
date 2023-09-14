@@ -10,7 +10,7 @@ Title: Naruto Sage Mode
 
 import * as THREE from 'three';
 import React, {useRef} from 'react'
-import {MeshReflectorMaterial, useGLTF} from '@react-three/drei'
+import {MeshReflectorMaterial, Sparkles, useGLTF} from '@react-three/drei'
 // import {Glass} from "@/components/canvas/materials/glass";
 
 export function NarutoModel(props) {
@@ -44,6 +44,7 @@ export function NarutoModel(props) {
         {/*  color="#202020"*/}
         {/*  metalness={0.8}*/}
         {/*/>*/}
+
       </mesh>
     </group>
   )

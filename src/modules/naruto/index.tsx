@@ -8,7 +8,8 @@ import {
   Preload,
   Stage,
   useTexture,
-  Effects, useGLTF, Float
+  Effects, useGLTF, Float, Lightformer,
+  ContactShadows
 } from "@react-three/drei";
 import {gsap} from 'gsap';
 
@@ -44,18 +45,13 @@ export default function ErgoModule() {
     </mesh>
   )
   const {nodes, materials} = useGLTF('/models/naruto_sage_mode-transformed.glb');
-  useEffect(() => {
-    gsap.fromTo(refLi.current, {intensity: 0}, {intensity: 100, ease: 'power3.inOut', duration: 5});
-    gsap.fromTo(refLi2.current, {intensity: 0}, {intensity: 300, ease: 'power3.inOut', duration: 5});
-    gsap.fromTo(refLi3.current, {intensity: 0}, {intensity: 20, ease: 'power3.inOut', duration: 5});
-  }, [refLi,refLi2, refLi3])
 
   return (
     <Canvas shadows gl={{antialias: false, stencil: false}} camera={{position: [0, 0, 10], fov: 45}}>
-      <ambientLight ref={refLi} intensity={0} color='#ffffff'/>
+      <ambientLight ref={refLi} intensity={100} color='#ffffff'/>
       <pointLight
         ref={refLi2}
-        distance={5000} intensity={0} color="lightblue"
+        distance={5000} intensity={300} color="lightblue"
         position={[0, 5, -8]}
       />
       <fog attach="fog" args={['black', 15, 0]}/>
@@ -63,8 +59,9 @@ export default function ErgoModule() {
         <RoomModel scale={5}/>
       </Center>
       <group position={[0, -2, 0]}>
+        <ContactShadows resolution={1024} frames={1} position={[0, 0, 0]} scale={15} blur={0.5} opacity={1} far={20}/>
         <Floor/>
-        <pointLight ref={refLi3} distance={10} intensity={0} color="lightblue">
+        <pointLight ref={refLi3} distance={10} intensity={20} color="lightblue">
           <mesh scale={.0003} geometry={nodes.Object_2.geometry} position={[0, 0, 1]} rotation={[-Math.PI / 2, 0, 0]}/>
         </pointLight>
         <NarutoModel scale={.0003} position={[-1.5, 0, 0]}/>
@@ -72,7 +69,24 @@ export default function ErgoModule() {
       </group>
       <SEffects/>
       <Rig/>
-      <IntroAnimation />
+      <IntroAnimation/>
+
+      <Environment resolution={512}>
+        {/* Ceiling */}
+        <Lightformer intensity={2} rotation-x={Math.PI / 2} position={[0, 4, -9]} scale={[10, 1, 1]}/>
+        <Lightformer intensity={2} rotation-x={Math.PI / 2} position={[0, 4, -6]} scale={[10, 1, 1]}/>
+        <Lightformer intensity={2} rotation-x={Math.PI / 2} position={[0, 4, -3]} scale={[10, 1, 1]}/>
+        <Lightformer intensity={2} rotation-x={Math.PI / 2} position={[0, 4, 0]} scale={[10, 1, 1]}/>
+        <Lightformer intensity={2} rotation-x={Math.PI / 2} position={[0, 4, 3]} scale={[10, 1, 1]}/>
+        <Lightformer intensity={2} rotation-x={Math.PI / 2} position={[0, 4, 6]} scale={[10, 1, 1]}/>
+        <Lightformer intensity={2} rotation-x={Math.PI / 2} position={[0, 4, 9]} scale={[10, 1, 1]}/>
+        {/* Sides */}
+        <Lightformer intensity={2} rotation-y={Math.PI / 2} position={[-50, 2, 0]} scale={[100, 2, 1]}/>
+        <Lightformer intensity={2} rotation-y={-Math.PI / 2} position={[50, 2, 0]} scale={[100, 2, 1]}/>
+        {/* Key */}
+        <Lightformer form="ring" color="red" intensity={10} scale={2} position={[10, 5, 10]}
+                     onUpdate={(self) => self.lookAt(0, 0, 0)}/>
+      </Environment>
       <Preload all/>
     </Canvas>
   )
